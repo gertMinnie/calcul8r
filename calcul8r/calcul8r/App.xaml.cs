@@ -120,6 +120,8 @@ namespace calcul8re
             var equalsButton = new Button { Text = "=", Style = yellowButton };
             grid.Children.Add(equalsButton, 1, 5);
             Grid.SetColumnSpan(equalsButton, 3);
+
+
         }
     }
 }
